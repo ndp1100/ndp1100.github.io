@@ -24,12 +24,7 @@ There are path to classes.jar.
 
 - Mac OS: In /Applications/Unity, right click on Unity application -> show Content.
 /Applications/Unity/Contents/PackageEngines/AndroidPlayer/development/bin/classes.jar
-
-{% include image.html
-            img="images/AndroidPlugin/2.png"
-            title="title for image"
-            caption="caption for image" %}
-
+![Test Image](/images/AndroidPlugin/2.png)
 
  Add jar file to Android Project. Need to set Scope is Provided. Why you need to set Scope is Provided. Because when you build later in Unity later, Unity will automatic add this library, so you will get error **already added**.
 [_config.yml]({{ site.baseurl }}/images/AndroidPlugin/AndroidPlugin-addclassesjar.PNG)
