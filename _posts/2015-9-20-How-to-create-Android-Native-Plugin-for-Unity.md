@@ -35,7 +35,7 @@ There are two things you can do while create Native Android Plugin for Unity.
 2. Write native code in Android to send information to Unity.
 
 First thing, you need create a public static method in Java like this.
-[Show Android Code](/images/AndroidPlugin/AndroidPlugin-androidcode.PNG)
+![Show Android Code](/images/AndroidPlugin/AndroidPlugin-androidcode.PNG)
 
 - Method **requestToast** will be called from Unity code. It will toast a message. Simple
 - Method **callbackToUnity** send information from Native code to Unity. In this case, I will send number of Toast method be called - count variable to Unity code.
@@ -59,6 +59,7 @@ Next step is create class AndroidUnityManager. It's interface help you call Toas
 
 That's is. Now you can build. Final result be showed below
 ![Show final](/images/AndroidPlugin/AndroidPlugin-final.jpg)
+
 You click on button, a Toast message will be showed and you will receive information about number you call Toast method from Android native code.
 
 That's all steps when you want to use android native code in Unity. The next guild, I will show you how to download .obb file from your own host. If you have any question or stuck at any step. Just leave your comment here. I will try to help you out.
