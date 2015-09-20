@@ -28,7 +28,7 @@ There are path to classes.jar.
 ![Show Image](/images/AndroidPlugin/2.png)
 
 
-Next. Add jar file to Android Project. Need to set Scope is Provided. Why you need to set Scope is Provided. Because when you build later in Unity later, Unity will automatic add this library, so you will get error **already added**.
+Next. Add jar file to Android Project. Need to set Scope is Provided. Why you need to set Scope is Provided? because when you build later in Unity later, Unity will automatic add this library, so if you dont set scope is provided then you will get error **already added**.
 ![Show add classes.jar](/images/AndroidPlugin/AndroidPlugin-addclassesjar.PNG)
 
 There are two things you can do while create Native Android Plugin for Unity.
@@ -39,7 +39,7 @@ There are two things you can do while create Native Android Plugin for Unity.
 First thing, you need create a public static method in Java like this.
 ![Show Android Code](/images/AndroidPlugin/AndroidPlugin-androidcode.PNG)
 
-- Method **requestToast** will be called from Unity code. It will toast a message. Simple
+- Method **requestToast** will be called from Unity code. It will toast a message. Simple!
 - Method **callbackToUnity** send information from Native code to Unity. In this case, I will send number of Toast method be called - count variable to Unity code.
 
 ##2. Export file Jar.
