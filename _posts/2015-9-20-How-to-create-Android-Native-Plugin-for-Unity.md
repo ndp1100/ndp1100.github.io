@@ -20,6 +20,7 @@ You can use Eclipse of Android Studio to create Android Project. I suggest Andro
 As normal game or application, the first thing you need to do is create main activity. Diffence between Unity Game and native android app is your main activity need to be extend from *UnityPlayerActivity*. So, you need to add a library of Unity to Android Plugin Project. 
 
 There are path to classes.jar.
+
 - Window : C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\androiddevelopmentplayer\bin\classes.jar.
 
 - Mac OS: In /Applications/Unity, right click on Unity application -> show Content.
@@ -31,6 +32,7 @@ Next. Add jar file to Android Project. Need to set Scope is Provided. Why you ne
 ![Show add classes.jar](/images/AndroidPlugin/AndroidPlugin-addclassesjar.PNG)
 
 There are two things you can do while create Native Android Plugin for Unity.
+
 1. Write native code in Android then call it from Unity code(C#) later. 
 2. Write native code in Android to send information to Unity.
 
@@ -43,7 +45,8 @@ First thing, you need create a public static method in Java like this.
 ##2. Export file Jar.
 Next step, you need to create a jar file. It will be added to Unity folder (Plugins/Android). 
 In Android Studio you can export jar file with bundle.gradle [like this post](http://stackoverflow.com/questions/16763090/how-to-export-library-to-jar-in-android-studio)
-If it doesn't work with you, you can try to convert .dex file (/app/build/intermediates/dex/release/classes.dex) to jar file with [this tool](http://code.google.com/p/dex2jar/)  
+
+If it doesn't work with you, you can try to convert .dex file to jar file with [this tool](http://code.google.com/p/dex2jar/). You cal find .dex file at **/app/build/intermediates/dex/release/classes.dex** folder
 ![Show dex2jar](/images/AndroidPlugin/AndroidPlugin-dex2jar.PNG)
 
 ##3. Create Unity Project
