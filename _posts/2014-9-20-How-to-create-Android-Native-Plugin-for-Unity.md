@@ -6,6 +6,7 @@ title: How to create a Native Android Plugin for Unity3D
  It's awesome when you can use some native functionaly of Android (or iOS/WP) in Unity3D, such as show Toats, take a picture, show dialog...vv.vv. Today, I will show how to create a Native Android Plugin for Unity3D.
 
  There are all step you need to do.
+
  - Create Android Project. Write some native functionaly.
  - Make jar file (plugin you will add to Unity Project later).
  - Create Unity Project and use Native Android code in Unity.
@@ -23,7 +24,7 @@ There are path to classes.jar.
 
 - Mac OS: In /Applications/Unity, right click on Unity application -> show Content.
 /Applications/Unity/Contents/PackageEngines/AndroidPlayer/development/bin/classes.jar
-![_config.yml]({{ site.baseurl }}/images/AndroidPlugin/2.png)
+[image](/images/AndroidPlugin/2.png)
 
 
  Add jar file to Android Project. Need to set Scope is Provided. Why you need to set Scope is Provided. Because when you build later in Unity later, Unity will automatic add this library, so you will get error **already added**.
