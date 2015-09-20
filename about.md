@@ -13,4 +13,4 @@ Play Dota2.
 
 ### Contact me
 
-[email@domain.com](mailto:ndp1100@gmail.com)
+[ndp1100@gmail.com](mailto:ndp1100@gmail.com)
