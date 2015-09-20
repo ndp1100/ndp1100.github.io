@@ -5,10 +5,10 @@ title: How to create a Native Android Plugin for Unity3D
 
  It's awesome when you can use some native functionaly of Android (or iOS/WP) in Unity3D, such as show Toats, take a picture, show dialog...vv.vv. Today, I will show how to create a Native Android Plugin for Unity3D.
 
- There are all step you need to do 
- 1. Create Android Project. Write some native functionaly.
- 2. Make jar file (plugin you will add to Unity Project later).
- 3. Create Unity Project and use Native Android code in Unity
+ There are all step you need to do.
+ - Create Android Project. Write some native functionaly.
+ - Make jar file (plugin you will add to Unity Project later).
+ - Create Unity Project and use Native Android code in Unity.
 
 That's all. Let's go step by step.
 
@@ -18,12 +18,13 @@ You can use Eclipse of Android Studio to create Android Project. I suggest Andro
 
 As normal game or application, the first thing you need to do is create main activity. Diffence between Unity Game and native android app is your main activity need to be extend from *UnityPlayerActivity*. So, you need to add a library of Unity to Android Plugin Project. 
 
-There are path to classes.jar 
-- Window : C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\androiddevelopmentplayer\bin\classes.jar
-- Mac OS: In /Applications/Unity, right click on Unity application -> show Content
- 	/Applications/Unity/Contents/PackageEngines/AndroidPlayer/development/bin/classes.jar
+There are path to classes.jar.
+- Window : C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\androiddevelopmentplayer\bin\classes.jar.
 
-[_config.yml]({{ site.baseurl }}/images/AndroidPlugin/2.png)
+- Mac OS: In /Applications/Unity, right click on Unity application -> show Content.
+/Applications/Unity/Contents/PackageEngines/AndroidPlayer/development/bin/classes.jar
+![_config.yml]({{ site.baseurl }}/images/AndroidPlugin/2.png)
+
 
  Add jar file to Android Project. Need to set Scope is Provided. Why you need to set Scope is Provided. Because when you build later in Unity later, Unity will automatic add this library, so you will get error **already added**.
 [_config.yml]({{ site.baseurl }}/images/AndroidPlugin/AndroidPlugin-addclassesjar.PNG)
@@ -60,3 +61,4 @@ That's is. Now you can build. Final result be showed below
 You click on button, a Toast message will be showed and you will receive information about number you call Toast method from Android native code.
 
 That's all steps when you want to use android native code in Unity. The next guild, I will show you how to download .obb file from your own host. If you have any question or stuck at any step. Just leave your comment here. I will try to help you out.
+
