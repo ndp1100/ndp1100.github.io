@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to create a Native Android Plugin for Unity3D
+comments: True
 ---
 
  It's awesome when you can use some native functionaly of Android (or iOS/WP) in Unity3D, such as show Toats, take a picture, show dialog...vv.vv. Today, I will show how to create a Native Android Plugin for Unity3D.
