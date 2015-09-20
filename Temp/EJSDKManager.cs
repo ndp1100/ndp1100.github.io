@@ -36,7 +36,7 @@ public class EJSDKManager : MonoBehaviour
     public void Init()
     {
 #if UNITY_ANDROID
-        jc = new AndroidJavaClass("com.enjoygame.wxfyzft.MainActivity");
+        jc = new AndroidJavaClass("unityplugin.phuongnd.com.androidplugin.MainActivity");
         Debug.Log("JavaClass -----------------> " + jc);
 #endif
     }
