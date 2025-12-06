@@ -1,0 +1,60 @@
+hero:
+  headline: "Unity Game Developer & Technical Director"
+  subheadline: "Delivering polished gameplay systems, multiplayer services, and mobile optimizations for over a decade."
+  summary: "I craft end to end experiences across Unity, native Android and iOS, and scalable backend services. My focus is clean architecture, measurable performance gains, and teams that ship on schedule."
+  availability: "Open to technical leadership, consulting, or hands on development roles."
+skills:
+  - title: "Unity Game Developer"
+    items:
+      - "Design and build AI systems and gameplay for FPS, tower defense, turn based, and action RPG experiences on mobile and PC."
+      - "Drive performance optimization covering scripting (object pooling, AI state machines, GC tuning) and rendering (texture compression, draw call batching, light baking, mesh combination)."
+      - "Implement multiplayer modes with Fishnet, Mirror, and Photon Fusion, including matchmaking, authoritative logic, and latency compensation."
+      - "Integrate native iOS and Android features plus third party SDKs spanning ads, analytics, social, and crash reporting."
+      - "Design anti cheat and tamper detection workflows down to assembly level inspections."
+  - title: "Game Server Developer"
+    items:
+      - "Ship realtime backends on Proud Net (C#) and .NET web stacks, aligning gameplay loops with low latency services."
+      - "Model data with SQL Server, MySQL, MongoDB, DynamoDB, and Redis for hybrid transactional caching strategies."
+      - "Automate deployments across AWS EC2, S3, Elastic Beanstalk, and Unity Gaming Services with infrastructure as code discipline."
+experience:
+  - company: "Youngster Studio"
+    role: "CTO"
+    period: "Jun 2024 - Present"
+    summary: "Lead cross functional teams, unblock complex technical issues, and keep releases on target."
+    contributions:
+      - "Solve high impact gameplay and platform bugs while maintaining product quality bars."
+      - "Coordinate Scrum ceremonies, sprint planning, and milestone tracking to give leadership predictable delivery dates."
+      - "Assign workloads and mentor engineers so every project benefits from shared architecture patterns."
+  - company: "EzGames"
+    role: "Technical Lead"
+    period: "2022 - May 2024"
+    summary: "Owned technical direction across multiple Unity titles and internal frameworks."
+    contributions:
+      - "Defined coding standards and reusable modules that accelerated new project onboarding."
+      - "Trained developers on advanced profiling, gameplay architecture, and platform specific best practices."
+      - "Balanced staffing and scope to keep production plans realistic without compromising quality."
+  - company: "BGame"
+    role: "Senior Developer"
+    period: "2021 - 2022"
+    summary: "Gameplay lead for Binemon across offline adventures and realtime PvP encounters."
+    contributions:
+      - "Implemented client and server combat systems, NFTs, and synchronous battle flows."
+      - "Diagnosed performance bottlenecks to keep battles smooth across mid range devices."
+  - company: "HIKERGAMES"
+    role: "Senior Developer"
+    period: "2014 - 2020"
+    summary: "Shipped multiple flagship mobile titles by driving gameplay, server logic, and ops stability."
+    contributions:
+      - "Built core combat loops, economy systems, and live operations tooling for Caravan War, Epic Odyssey, FZ9, and Mong Vo Lam."
+      - "Ensured backend uptime and deployment hygiene for global launches."
+  - company: "ArdentKid"
+    role: "Gameplay Developer & Co founder"
+    period: "2013 - 2014"
+    summary: "Developed 2D titles on Corona SDK with tight gameplay loops and monetization hooks."
+    contributions:
+      - "Crafted prototypes into polished releases while wearing gameplay, tools, and publishing hats."
+education:
+  - school: "University of Engineering and Technology"
+    degree: "BSc, Information Technology"
+    period: "2008 - 2012"
+    summary: "Focused on software engineering, data structures, and distributed systems."

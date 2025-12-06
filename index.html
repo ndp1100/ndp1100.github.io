@@ -2,17 +2,144 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+{% assign profile = site.data.profile %}
+{% assign project_groups = site.data.projects %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<section class="panel hero-panel">
+  <div class="hero-text">
+    <p class="eyebrow">{{ profile.hero.headline }}</p>
+    <h1 class="hero-name">{{ site.name }}</h1>
+    <p class="hero-subheadline">{{ profile.hero.subheadline }}</p>
+    <p class="hero-summary">{{ profile.hero.summary }}</p>
+    <p class="hero-availability">{{ profile.hero.availability }}</p>
+    <div class="hero-actions">
+      {% if site.footer-links.email %}
+        <a class="btn primary" href="mailto:{{ site.footer-links.email }}">Email Me</a>
+      {% endif %}
+      <a class="btn ghost" href="{{ site.baseurl }}/CV.txt" download>Download CV</a>
+      <a class="btn ghost" href="{{ site.baseurl }}/Projectreferences.txt" download>Project References</a>
+    </div>
+  </div>
+  <div class="hero-avatar-card">
+    <div class="avatar-ring">
+      <img src="{{ site.avatar }}" alt="{{ site.name }} avatar" />
+    </div>
+    <div class="avatar-caption">
+      <p class="eyebrow subtle">Featured Profile</p>
+      <p class="avatar-role">{{ profile.hero.headline }}</p>
+    </div>
+  </div>
+</section>
 
-      <div class="entry">
-        {{ post.excerpt }}
+<section class="panel skills-panel">
+  <div class="panel-header">
+    <p class="eyebrow">Skills & Strengths</p>
+    <h2>Core Expertise</h2>
+  </div>
+  <div class="skills-grid">
+    {% for skill in profile.skills %}
+      <article class="skill-card">
+        <h3>{{ skill.title }}</h3>
+        <ul>
+          {% for item in skill.items %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="panel experience-panel">
+  <div class="panel-header">
+    <p class="eyebrow">Experience</p>
+    <h2>Leadership & Delivery</h2>
+  </div>
+  <div class="experience-timeline">
+    {% for job in profile.experience %}
+      <article class="experience-card">
+        <header>
+          <div>
+            <p class="eyebrow">{{ job.period }}</p>
+            <h3>{{ job.role }} · {{ job.company }}</h3>
+          </div>
+        </header>
+        <p class="experience-summary">{{ job.summary }}</p>
+        <ul>
+          {% for contribution in job.contributions %}
+            <li>{{ contribution }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="panel education-panel">
+  <div class="panel-header">
+    <p class="eyebrow">Education</p>
+    <h2>Academic Foundation</h2>
+  </div>
+  <div class="education-grid">
+    {% for edu in profile.education %}
+      <article class="education-card">
+        <p class="eyebrow">{{ edu.period }}</p>
+        <h3>{{ edu.degree }}</h3>
+        <p class="education-school">{{ edu.school }}</p>
+        <p class="education-summary">{{ edu.summary }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="panel projects-panel">
+  <div class="panel-header">
+    <p class="eyebrow">Project References</p>
+    <h2>Selected Releases</h2>
+  </div>
+  {% for group in project_groups %}
+    <div class="project-group">
+      <header class="project-group-header">
+        <div>
+          <p class="eyebrow">{{ group.period }}</p>
+          <h3>{{ group.studio }}</h3>
+        </div>
+        <span class="badge">{{ group.role }}</span>
+      </header>
+      <div class="project-card-grid">
+        {% for project in group.projects %}
+          <article class="project-card">
+            <div class="project-gallery" aria-label="Image gallery for {{ project.name }}">
+              <div class="project-gallery-track">
+                {% for image in project.images %}
+                  <figure class="project-frame">
+                    <img src="{{ image }}" alt="{{ project.name }} screenshot {{ forloop.index }}" />
+                  </figure>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="eyebrow">{{ project.genre }}</p>
+              <h4>{{ project.name }}</h4>
+              <p>{{ project.summary }}</p>
+              <ul>
+                {% for highlight in project.highlights %}
+                  <li>{{ highlight }}</li>
+                {% endfor %}
+              </ul>
+              <div class="project-links">
+                {% for link in project.links %}
+                  {% if link.url and link.url != "" %}
+                    <a class="btn link" href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.label }}</a>
+                  {% else %}
+                    <span class="btn link disabled">{{ link.label }}</span>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          </article>
+        {% endfor %}
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+    </div>
   {% endfor %}
-</div>
+</section>

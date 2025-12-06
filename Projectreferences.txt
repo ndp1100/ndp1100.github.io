@@ -1,0 +1,45 @@
+Project References
+Youngster Studio (06/2024 - Now)
+Role: CTO
+Supermarket Manager Simulator (3D)
+Google Play: Link
+
+Highlights: Developed entire core gameplay
+Digging a Hole Simulator
+Google Play: Link
+
+Highlights: Built terrain digging core system
+Idle Mine: Cyclop & Goblin
+Google Play: Link
+
+Highlights: Built terrain digging core system
+EZGame Studio (11/2022 - 05/2024)
+Role: Game Engine Director
+Pixel Basketball: Multiplayer (2D)
+Google Play: Link
+YouTube: Link1, Link2
+Highlights: Implemented real-time PvP mode
+Idle Gym Life: Street Fighter (3D)
+Google Play: Link
+YouTube: Link1
+Highlights: Optimized game performance and app vitals
+BGame Studio (2021-2022)
+Role: Remote Senior Gameplay Programmer
+Binemon (3D)
+Google Play: Link
+YouTube: Link1, Link2
+Highlights: Built full battle gameplay and real-time PvP mode
+HikerGames Studio (2014-2020)
+Role: Project Tech Lead
+Caravan War: Tower Defense (3D)
+YouTube: Link1, Link2
+Highlights: Developed entire gameplay and core systems
+Epic Odyssey (3D)
+YouTube: Link1, Link2
+Highlights: Developed entire gameplay and core systems
+FZ9 : Timeshift (3D)
+YouTube: Link1, Link2
+Highlights: Developed entire gameplay and core systems
+Mong Vo Lam (3D) - Published in Vietnam, China, Thailand
+YouTube: Link1, Link2
+Highlights: Developed entire gameplay and core systems

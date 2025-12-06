@@ -1,0 +1,177 @@
+Skills/STRENGTH
+
+Unity Game Developer
+
+- Proficient in creating AI systems, gameplay,
+
+game mechanics for various game genres such as
+
+FPS, Tower Defense, Turn-based, Real-time
+
+combat RPG game, Offline and Online Game.
+
+
+
+- Extensive experience in Game Performance
+
+Optimization, include Scripting (through
+
+techniques like Object Pooling, AI programming,
+
+garbage collector optimization, using Design
+
+Pattern) and Rendering optimization techniques
+
+such as Texture Compression, Draw Call Batching,
+
+Light Baking, and Mesh Combination.
+
+
+
+-Experienced in developing multiplayer projects
+
+using frameworks such as Fishnet Networking,
+
+Mirror Networking, or Photon Fusion.
+
+
+
+-Proficient in Xcode and Android Studio, with a
+
+track record of developing native Android and iOS
+
+applications.Extensive experience integrating
+
+third-party SDKs into Unity, such as Advertising
+
+SDKs, Analytic SDKs, Social SDKs, and Crashlytic
+
+SDKs
+
+
+
+-Knowledgeable in Anti-Cheat or Anti-Hacking
+
+measures, including assembly code modification
+
+detection.
+
+Game Server Developer
+
+-Experienced in server-side development using
+
+Application Server (Proud-Net Engine - C#) or Web
+
+Server (.Net). Familiar with databases like SQL
+
+Server, MySQL, MongoDB, DynamoDB (NoSQL
+
+Cloud database service - Amazon), and Redis.
+
+
+
+- Hands-on experience with Amazon Web
+
+Services, including EC2, S3, and Elastic Beanstalk.
+
+Or Unity Gaming Services.
+
+Work experience
+
+CTO
+
+6/2024
+
+-
+
+Now
+
+Youngster Studio
+
+Resolve complex technical challenges across projects, providing innovative solutions to maintain high-quality standards.
+
+Allocate tasks and manage team workloads to ensure efficient project execution and adherence to timelines.
+
+I have led several projects as a Project Manager, where I coordinated cross-functional teams operating under the Scrum framework. My responsibilities included facilitating agile ceremonies, managing sprint planning, and ensuring timely delivery of project milestones.
+
+Technical lead
+
+2022
+
+-
+
+5/2024
+
+EzGames
+
+I am responsible for handling technical issues within the company's projects.
+
+I make technical decisions for the projects and provide training to team
+
+members. I allocate workloads and personnel to ensure smooth project
+
+operations and adherence to plans.Developing system modules for use
+
+across projects within the company, saving time and ensuring the projects
+
+have the best possible structure.
+
+Senior Developer
+
+2021
+
+-
+
+2022
+
+BGame
+
+I am responsible for developing the gameplay and mechanics of the Binemon
+
+project, which includes both offline mode and real-time PVP mode. This
+
+project is a game based on NFTs.
+
+Senior Developer
+
+2014
+
+-
+
+2020
+
+HIKERGAMES
+
+I am responsible for developing the core gameplay and main game
+
+mechanics in projects, including both client and server systems. I ensure
+
+optimal performance of game products on mobile platforms. Additionally, I
+
+oversee backend infrastructure management to ensure smooth operation.
+
+GamePlay Developer * Co-founder
+
+2013
+
+-
+
+2014
+
+ArdentKid
+
+I am responsible for developing the core gameplay and main game
+
+mechanics in projects with 2D Game Engine CoronaSDK.
+
+Education
+
+Information Of Technology
+
+2008
+
+-
+
+2012
+
+University of Engineering and Technology

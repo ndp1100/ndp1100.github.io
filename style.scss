@@ -5,6 +5,8 @@
 // IMPORTS
 //
 
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap");
+
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
@@ -18,21 +20,22 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  background: radial-gradient(circle at top left, #e0f2f1, #fdfcfb 35%, #f8fafc 100%);
+  font: 18px/1.6 $bodyFont;
+  color: $ink;
+  margin: 0;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 1200px;
+  padding: 0 24px 80px;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: $displayFont;
+  color: $ink;
   font-weight: bold;
 
   line-height: 1.7;
@@ -69,11 +72,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $tealDark;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $teal;
   }
 }
 
@@ -281,6 +284,320 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+// CV + Projects layout
+
+.panel {
+  background: $white;
+  border-radius: 32px;
+  padding: 48px;
+  margin-bottom: 40px;
+  box-shadow: 0 25px 80px rgba(15, 23, 42, 0.08);
+  position: relative;
+}
+
+.panel-header {
+  margin-bottom: 32px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  font-weight: 600;
+  color: $tealDark;
+  margin: 0 0 8px;
+}
+
+.eyebrow.subtle {
+  color: $gray;
+}
+
+.hero-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  background: linear-gradient(135deg, #e0f7fa, #fef3c7);
+  overflow: hidden;
+}
+
+.hero-name {
+  font-size: 56px;
+  margin: 0 0 12px;
+}
+
+.hero-subheadline {
+  font-size: 22px;
+  margin: 0 0 16px;
+  color: $tealDark;
+}
+
+.hero-summary,
+.hero-availability {
+  max-width: 640px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.btn {
+  border: 1px solid rgba(13, 148, 136, 0.3);
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-weight: 600;
+  color: $tealDark;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn.primary {
+  background: $teal;
+  border-color: $teal;
+  color: $white;
+}
+
+.btn.ghost {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.btn.link {
+  border-color: transparent;
+  padding: 0;
+  border-bottom: 1px solid rgba(13, 148, 136, 0.3);
+  border-radius: 0;
+}
+
+.btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.12);
+}
+
+.hero-avatar-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 28px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.avatar-ring {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, $teal, $sunset);
+  padding: 4px;
+}
+
+.avatar-ring img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.avatar-role {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.skill-card {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 20px;
+  padding: 24px;
+  background: $sand;
+}
+
+.skill-card h3 {
+  margin-top: 0;
+}
+
+.skill-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-card li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+}
+
+.skill-card li:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: $teal;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.experience-timeline {
+  display: grid;
+  gap: 24px;
+}
+
+.experience-card {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 20px;
+  padding: 24px;
+  background: $white;
+}
+
+.experience-card ul {
+  margin: 16px 0 0;
+}
+
+.experience-card li {
+  margin-bottom: 8px;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.education-card {
+  border-radius: 20px;
+  padding: 24px;
+  background: linear-gradient(135deg, rgba(13, 148, 136, 0.1), rgba(249, 115, 22, 0.1));
+}
+
+.project-group {
+  margin-bottom: 48px;
+}
+
+.project-group:last-child {
+  margin-bottom: 0;
+}
+
+.project-group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 16px;
+}
+
+.badge {
+  border-radius: 999px;
+  padding: 8px 18px;
+  background: rgba(13, 148, 136, 0.1);
+  color: $tealDark;
+  font-weight: 600;
+}
+
+.project-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.project-card {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 24px;
+  overflow: hidden;
+  background: $white;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-gallery {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.project-gallery::-webkit-scrollbar {
+  display: none;
+}
+
+.project-gallery-track {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+}
+
+.project-frame {
+  flex: 0 0 240px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+.project-frame img {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.project-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.project-body ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+@media screen and (max-width: 960px) {
+  .panel {
+    padding: 32px;
+  }
+
+  .hero-name {
+    font-size: 42px;
+  }
+}
+
+@include mobile {
+  .panel {
+    padding: 24px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-group-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

@@ -1,0 +1,142 @@
+- studio: "Youngster Studio"
+  role: "CTO"
+  period: "Jun 2024 - Present"
+  projects:
+    - name: "Supermarket Manager Simulator"
+      genre: "3D Management Sim"
+      summary: "Architected the entire gameplay loop, balancing store expansion, staffing, and live operations."
+      highlights:
+        - "Led the prototype to launch pipeline with weekly playable milestones."
+        - "Integrated native mobile UI, analytics, and monetization SDKs."
+      links:
+        - label: "Google Play"
+          url: ""
+      images:
+        - "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+        - "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80"
+    - name: "Digging a Hole Simulator"
+      genre: "3D Sandbox"
+      summary: "Built the deformable terrain core that underpins progression and monetization."
+      highlights:
+        - "Implemented GPU friendly marching cubes workflow for mobile."
+        - "Shipped tactile haptics that signal resource milestones."
+      links:
+        - label: "Google Play"
+          url: ""
+      images:
+        - "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80"
+        - "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80"
+    - name: "Idle Mine: Cyclop & Goblin"
+      genre: "3D Idle"
+      summary: "Extended the terrain digging tech into a multi character idle economy."
+      highlights:
+        - "Balanced late game resource curves for multi day retention."
+        - "Automated content authoring so designers could add mines without code help."
+      links:
+        - label: "Google Play"
+          url: ""
+      images:
+        - "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
+        - "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1200&q=80"
+- studio: "EzGames Studio"
+  role: "Game Engine Director"
+  period: "Nov 2022 - May 2024"
+  projects:
+    - name: "Pixel Basketball: Multiplayer"
+      genre: "2D Realtime PvP"
+      summary: "Delivered low latency multiplayer basketball with matchmaking, sync, and anti cheat."
+      highlights:
+        - "Implemented rollback netcode tailored to Unity."
+        - "Scripted broadcast ready camera work for highlight reels."
+      links:
+        - label: "Google Play"
+          url: ""
+        - label: "YouTube"
+          url: ""
+      images:
+        - "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80"
+        - "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?auto=format&fit=crop&w=1200&q=80"
+    - name: "Idle Gym Life: Street Fighter"
+      genre: "3D Idle Fighter"
+      summary: "Owned performance and content pipelines for a stylized idle combat title."
+      highlights:
+        - "Cut frame time by 40 percent via GPU instancing and asset streaming."
+        - "Balanced monetization events tied to gym upgrades."
+      links:
+        - label: "Google Play"
+          url: ""
+        - label: "YouTube"
+          url: ""
+      images:
+        - "https://images.unsplash.com/photo-1494390248081-4e521a5940db?auto=format&fit=crop&w=1200&q=80"
+        - "https://images.unsplash.com/photo-1450183395281-5655f1b3f751?auto=format&fit=crop&w=1200&q=80"
+- studio: "BGame Studio"
+  role: "Senior Gameplay Programmer"
+  period: "2021 - 2022"
+  projects:
+    - name: "Binemon"
+      genre: "3D RPG + NFT"
+      summary: "Delivered the full battle gameplay and realtime PvP systems across mobile clients and backend."
+      highlights:
+        - "Unified offline adventure logic with realtime PvP networking."
+        - "Integrated blockchain inventory flows without hurting UX."
+      links:
+        - label: "Google Play"
+          url: ""
+        - label: "YouTube"
+          url: ""
+      images:
+        - "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80"
+        - "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1200&q=80"
+- studio: "HIKERGAMES"
+  role: "Project Tech Lead"
+  period: "2014 - 2020"
+  projects:
+    - name: "Caravan War: Tower Defense"
+      genre: "3D Tower Defense"
+      summary: "Owned gameplay systems and live operations tooling."
+      highlights:
+        - "Orchestrated large scale battles with pooled VFX and AI."
+        - "Built server dashboards for balance tweaks."
+      links:
+        - label: "YouTube"
+          url: ""
+      images:
+        - "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80"
+        - "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80"
+    - name: "Epic Odyssey"
+      genre: "3D RPG"
+      summary: "Developed end to end gameplay architecture and co op loops."
+      highlights:
+        - "Balanced hero synergies and endgame raids."
+        - "Implemented cinematic sequencing tools for designers."
+      links:
+        - label: "YouTube"
+          url: ""
+      images:
+        - "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80"
+        - "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
+    - name: "FZ9: Timeshift"
+      genre: "3D FPS"
+      summary: "Implemented bullet time gunplay across client and backend."
+      highlights:
+        - "Built modular weapon pipeline with data driven tuning."
+        - "Optimized shader LODs for mid tier Android."
+      links:
+        - label: "YouTube"
+          url: ""
+      images:
+        - "https://images.unsplash.com/photo-1478827536110-dedec7ffe8b2?auto=format&fit=crop&w=1200&q=80"
+        - "https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=1200&q=80"
+    - name: "Mong Vo Lam"
+      genre: "3D MMORPG"
+      summary: "Technical owner for Vietnam, China, and Thailand launches."
+      highlights:
+        - "Localized server infrastructure with region aware matchmaking."
+        - "Maintained live ops stability across spikes in traffic."
+      links:
+        - label: "YouTube"
+          url: ""
+      images:
+        - "https://images.unsplash.com/photo-1472457974886-0ebcd59440cc?auto=format&fit=crop&w=1200&q=80"
+        - "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80"
