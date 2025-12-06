@@ -1,5 +1,5 @@
 hero:
-  headline: "Unity Game Developer & Technical Director"
+  headline: "Unity Game Developer"
   subheadline: "Delivering polished gameplay systems, multiplayer services, and mobile optimizations for over a decade."
   summary: "I craft end to end experiences across Unity, native Android and iOS, and scalable backend services. My focus is clean architecture, measurable performance gains, and teams that ship on schedule."
   availability: "Open to technical leadership, consulting, or hands on development roles."
@@ -16,6 +16,10 @@ skills:
       - "Ship realtime backends on Proud Net (C#) and .NET web stacks, aligning gameplay loops with low latency services."
       - "Model data with SQL Server, MySQL, MongoDB, DynamoDB, and Redis for hybrid transactional caching strategies."
       - "Automate deployments across AWS EC2, S3, Elastic Beanstalk, and Unity Gaming Services with infrastructure as code discipline."
+  - title: "CI-CD & DevOps"
+    items:
+      - "Maintain build pipelines with Jenkins for multi platform releases."
+      - "Monitor application health with Firebase Crashlytics, and custom logging solutions."
 experience:
   - company: "Youngster Studio"
     role: "CTO"

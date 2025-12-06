@@ -4,40 +4,52 @@
   projects:
     - name: "Supermarket Manager Simulator"
       genre: "3D Management Sim"
-      summary: "Architected the entire gameplay loop, balancing store expansion, staffing, and live operations."
+      summary: "Built core gameplay systems and mechanics."
       highlights:
         - "Led the prototype to launch pipeline with weekly playable milestones."
         - "Integrated native mobile UI, analytics, and monetization SDKs."
       links:
         - label: "Google Play"
-          url: ""
+          url: "https://play.google.com/store/apps/details?id=com.dmg.supermarket.simulator&hl=en"
       images:
-        - "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
-        - "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80"
+        - "https://play-lh.googleusercontent.com/kHzQ9WJ1raDccYp_rojlXELL7WcE4_r-NXtoxpieYIvQn-Q1T2SBKU5ytFaTQd4N9zpK=w2560-h1440-rw"
+        - "https://play-lh.googleusercontent.com/cLvBLrnGoLr5Y6O4I3I027Vee7GmuorCh26inOlTMJAtGEzJUzi4WRhonkFZhrKJpg=w2560-h1440-rw"
     - name: "Digging a Hole Simulator"
-      genre: "3D Sandbox"
-      summary: "Built the deformable terrain core that underpins progression and monetization."
+      genre: "3D Sandbox Sim"
+      summary: "Architected and implemented advanced deformable terrain systems for real-time voxel manipulation."
       highlights:
         - "Implemented GPU friendly marching cubes workflow for mobile."
         - "Shipped tactile haptics that signal resource milestones."
       links:
         - label: "Google Play"
-          url: ""
+          url: "https://play.google.com/store/apps/details?id=com.youngster.hole&hl=en"
       images:
-        - "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80"
-        - "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80"
+        - "https://play-lh.googleusercontent.com/qrTa5m80bcUwj-M8PYTRu-De9NEaYKc01PB9Q4k84Z8LlO2tYJY-SW_s-YY9vA6ivFY=w2560-h1440-rw"
+        - "https://play-lh.googleusercontent.com/iseg6rSZV3yxU9pDJO5EicodlNyo43A57--fTBDJB2WFZwMRe0KSOejUdJWUfLRLCQ=w2560-h1440-rw"
     - name: "Idle Mine: Cyclop & Goblin"
       genre: "3D Idle"
-      summary: "Extended the terrain digging tech into a multi character idle economy."
+      summary: "Owned Game performance and Gameplay System."
       highlights:
         - "Balanced late game resource curves for multi day retention."
         - "Automated content authoring so designers could add mines without code help."
       links:
         - label: "Google Play"
-          url: ""
+          url: "https://play.google.com/store/apps/details?id=com.youngster.igg"
       images:
-        - "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
-        - "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1200&q=80"
+        - "https://play-lh.googleusercontent.com/Yd2nDjcMERH6Isw-PvgmqOCAU2ToBVAP6-Iy5pO7C4UJK3gY_TXnrb0TJPJpJF0IdA=w2560-h1440-rw"
+        - "https://play-lh.googleusercontent.com/xqMN2zs9_PBuO3koAW3ox7wQx72aKP1MyoO6MY3PyLcD-zxpkh3IqNh4BHSB4TJsqg=w2560-h1440-rw"
+    - name: "Hole Mania"
+      genre: "Puzzle"
+      summary: "Developed game core mechanics and tools for level designs."
+      highlights:
+        - "Balanced late game resource curves for multi day retention."
+        - "Automated content authoring so designers could add mines without code help."
+      links:
+        - label: "Google Play"
+          url: "https://play.google.com/store/apps/details?id=com.youngster.igg"
+      images:
+        - "https://play-lh.googleusercontent.com/LxDGTfI65aWk5oGKdtue1G1tTALHKGgbKjLA8N-QmIX4-odMC1WdN2Rc5xA4FXonXrRUcLAQkzkq6aZWQrueXjE=w2560-h1440-rw"
+        - "https://play-lh.googleusercontent.com/U6a6tYWTAootqbbQP9kBYveMqnHbvDD6XapWYFRY_68SFKpEhcFqOf54ap7NaV5X7qcUaMXU6fmswgF4IhXX=w2560-h1440-rw"
 - studio: "EzGames Studio"
   role: "Game Engine Director"
   period: "Nov 2022 - May 2024"
@@ -50,32 +62,46 @@
         - "Scripted broadcast ready camera work for highlight reels."
       links:
         - label: "Google Play"
-          url: ""
+          url: "https://play.google.com/store/apps/details?id=com.ezgames.basketballpixel&hl=en"
         - label: "YouTube"
-          url: ""
+          url: "https://www.youtube.com/watch?v=Jhdrm0bQkg8"
       images:
-        - "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80"
-        - "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?auto=format&fit=crop&w=1200&q=80"
+        - "https://play-lh.googleusercontent.com/JYjfzjBno80p5_UJsbdqP7eDcu5AOl06Xv79boHNetUm7WvZGzCa8ysgpbyk5GAZCCs=w2560-h1440-rw"
+        - "https://play-lh.googleusercontent.com/IGyOJeBWRDLbVKhX7oeyM-Zk1z0PyUf2v4Hj55neu98ONt_O4pxyPdrVwPcgRGC3Rnw=w2560-h1440-rw"
     - name: "Idle Gym Life: Street Fighter"
       genre: "3D Idle Fighter"
-      summary: "Owned performance and content pipelines for a stylized idle combat title."
+      summary: "Owned Game performance and Developed Survivor gameplay mode."
       highlights:
         - "Cut frame time by 40 percent via GPU instancing and asset streaming."
         - "Balanced monetization events tied to gym upgrades."
       links:
         - label: "Google Play"
-          url: ""
+          url: "https://play.google.com/store/apps/details?id=com.ezgames.idlemuscle&hl=en"
         - label: "YouTube"
-          url: ""
+          url: "https://youtu.be/tELdl7QSkK0"
       images:
-        - "https://images.unsplash.com/photo-1494390248081-4e521a5940db?auto=format&fit=crop&w=1200&q=80"
-        - "https://images.unsplash.com/photo-1450183395281-5655f1b3f751?auto=format&fit=crop&w=1200&q=80"
+        - "https://play-lh.googleusercontent.com/MDNqyB42SNjl4K0lyhyaX_ITI72HQduUdagmtP9o0tIYBmYxDN-E0tiITQzqPMG5uK8=w2560-h1440-rw"
+        - "https://play-lh.googleusercontent.com/oUKYSwmtXyJBuZAAu5XYdBG1FgpJuwv0np_oZxgW3m_ciRs230GpwH6ExN22PvaXDUCh=w2560-h1440-rw"
+    - name: "Idle Boxing Tycoon: Gym Empire"
+      genre: "Tycoon Simulator"
+      summary: "Owned Game performance and App vital."
+      highlights:
+        - "Cut frame time by 40 percent via GPU instancing and asset streaming."
+        - "Balanced monetization events tied to gym upgrades."
+      links:
+        - label: "Google Play"
+          url: "https://play.google.com/store/apps/details?id=com.ezgames.idleboxing&hl=en"
+        - label: "YouTube"
+          url: "https://www.youtube.com/watch?v=2papqPwZ9ts"
+      images:
+        - "https://play-lh.googleusercontent.com/yfjCDpJTCnVl2hGnw2Ub3Q1ez93wdBcEJmW-0BFkpJWMdof3ghCht56S0GBNMycRWng=w2560-h1440-rw"
+        - "https://play-lh.googleusercontent.com/07MNNbSJ2__kh1ju52IHXb73TvvkN1S1gxSI-bIQ7Veri35izKkh4-IvmE11oTChehM7=w2560-h1440-rw"
 - studio: "BGame Studio"
   role: "Senior Gameplay Programmer"
   period: "2021 - 2022"
   projects:
     - name: "Binemon"
-      genre: "3D RPG + NFT"
+      genre: "3D Turnbase RPG + NFT"
       summary: "Delivered the full battle gameplay and realtime PvP systems across mobile clients and backend."
       highlights:
         - "Unified offline adventure logic with realtime PvP networking."
@@ -84,50 +110,50 @@
         - label: "Google Play"
           url: ""
         - label: "YouTube"
-          url: ""
+          url: "https://www.youtube.com/watch?v=L0OKSXnVxdA"
       images:
-        - "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80"
-        - "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1200&q=80"
+        - "/images/Projects/fitur-unggulan-binemon-1024x576.jpg"
+        - "/images/Projects/game-binemon-1024x576.jpg"
 - studio: "HIKERGAMES"
   role: "Project Tech Lead"
   period: "2014 - 2020"
   projects:
     - name: "Caravan War: Tower Defense"
       genre: "3D Tower Defense"
-      summary: "Owned gameplay systems and live operations tooling."
+      summary: "Owned gameplay systems and live operations."
       highlights:
         - "Orchestrated large scale battles with pooled VFX and AI."
         - "Built server dashboards for balance tweaks."
       links:
         - label: "YouTube"
-          url: ""
+          url: "https://www.youtube.com/watch?v=kWz2E-bcAr4"
       images:
-        - "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80"
-        - "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80"
+        - "/images/Projects/caravan-war-1.jpg"
+        - "/images/Projects/caravan-war-2.jpg"
     - name: "Epic Odyssey"
       genre: "3D RPG"
-      summary: "Developed end to end gameplay architecture and co op loops."
+      summary: "Developed end to end gameplay architecture."
       highlights:
         - "Balanced hero synergies and endgame raids."
         - "Implemented cinematic sequencing tools for designers."
       links:
         - label: "YouTube"
-          url: ""
+          url: "https://www.youtube.com/watch?v=AlSLWeEjmQ4"
       images:
-        - "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80"
-        - "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
+        - "/images/Projects/EpicOdyssey-2.jpg"
+        - "/images/Projects/EpicOdyssey-4.jpg"
     - name: "FZ9: Timeshift"
       genre: "3D FPS"
-      summary: "Implemented bullet time gunplay across client and backend."
+      summary: "Implemented bullet time gunplay and AI System and gameplays."
       highlights:
         - "Built modular weapon pipeline with data driven tuning."
         - "Optimized shader LODs for mid tier Android."
       links:
         - label: "YouTube"
-          url: ""
+          url: "https://www.youtube.com/watch?v=9O1ZoU0RlCA&t=2s"
       images:
-        - "https://images.unsplash.com/photo-1478827536110-dedec7ffe8b2?auto=format&fit=crop&w=1200&q=80"
-        - "https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=1200&q=80"
+        - "/images/Projects/fz9-1.jpg"
+        - "/images/Projects/fz9-2.jpg"
     - name: "Mong Vo Lam"
       genre: "3D MMORPG"
       summary: "Technical owner for Vietnam, China, and Thailand launches."
@@ -138,5 +164,5 @@
         - label: "YouTube"
           url: ""
       images:
-        - "https://images.unsplash.com/photo-1472457974886-0ebcd59440cc?auto=format&fit=crop&w=1200&q=80"
-        - "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80"
+        - "/images/Projects/mongvolam-1.jpg"
+        - "/images/Projects/mongvolam-2.jpg"

@@ -122,11 +122,6 @@ layout: default
               <p class="eyebrow">{{ project.genre }}</p>
               <h4>{{ project.name }}</h4>
               <p>{{ project.summary }}</p>
-              <ul>
-                {% for highlight in project.highlights %}
-                  <li>{{ highlight }}</li>
-                {% endfor %}
-              </ul>
               <div class="project-links">
                 {% for link in project.links %}
                   {% if link.url and link.url != "" %}

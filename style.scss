@@ -529,38 +529,74 @@ footer {
 
 .project-gallery {
   overflow-x: auto;
-  scrollbar-width: none;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(15, 23, 42, 0.2) transparent;
+  border-radius: 20px;
+  background: rgba(15, 23, 42, 0.04);
 }
 
 .project-gallery::-webkit-scrollbar {
-  display: none;
+  height: 6px;
+}
+
+.project-gallery::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.project-gallery::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.25);
+  border-radius: 999px;
 }
 
 .project-gallery-track {
   display: flex;
   gap: 12px;
-  padding: 16px;
+  padding: 18px 20px;
+  scroll-snap-type: x proximity;
+  scroll-behavior: smooth;
 }
 
 .project-frame {
-  flex: 0 0 240px;
+  flex: 0 0 360px;
   border-radius: 18px;
   overflow: hidden;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 25px 40px rgba(15, 23, 42, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  scroll-snap-align: start;
+  height: 230px;
 }
 
 .project-frame img {
   display: block;
   width: 100%;
-  height: 180px;
+  height: 230px;
   object-fit: cover;
+  transition: transform 0.4s ease;
 }
 
+.project-frame:hover img {
+  transform: scale(1.04);
+}
+
+
 .project-body {
-  padding: 24px;
+  padding: 20px 22px 22px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
+}
+
+.project-body .eyebrow {
+  margin: 0 0 2px;
+}
+
+.project-body h4 {
+  margin: 0;
+}
+
+.project-body p {
+  margin: 4px 0;
 }
 
 .project-body ul {
@@ -571,7 +607,7 @@ footer {
 .project-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 12px;
 }
 
 @media screen and (max-width: 960px) {
@@ -597,6 +633,15 @@ footer {
   .project-group-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .project-frame {
+    flex-basis: 240px;
+    height: 190px;
+  }
+
+  .project-frame img {
+    height: 190px;
   }
 }
 
