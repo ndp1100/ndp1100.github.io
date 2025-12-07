@@ -12,12 +12,9 @@ layout: default
     <p class="hero-subheadline">{{ profile.hero.subheadline }}</p>
     <p class="hero-summary">{{ profile.hero.summary }}</p>
     <p class="hero-availability">{{ profile.hero.availability }}</p>
-    <div class="hero-actions">
-      {% if site.footer-links.email %}
-        <a class="btn primary" href="mailto:{{ site.footer-links.email }}">Email Me</a>
-      {% endif %}
-      <a class="btn ghost" href="{{ site.baseurl }}/CV.txt" download>Download CV</a>
-      <a class="btn ghost" href="{{ site.baseurl }}/Projectreferences.txt" download>Project References</a>
+    <div class="hero-contact">
+      <p class="contact-label">Email:</p>
+      <a class="contact-email" href="mailto:ndp1100@gmail.com">ndp1100@gmail.com</a>
     </div>
   </div>
   <div class="hero-avatar-card">

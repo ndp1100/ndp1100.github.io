@@ -338,6 +338,31 @@ footer {
   max-width: 640px;
 }
 
+.hero-contact {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.contact-label {
+  font-weight: 600;
+  color: $slate;
+}
+
+.contact-email {
+  color: $teal;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.contact-email:hover {
+  border-bottom-color: $teal;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
