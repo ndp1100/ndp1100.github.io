@@ -341,9 +341,15 @@ footer {
 .hero-contact {
   margin-top: 24px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 8px;
   font-size: 16px;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .contact-label {
@@ -351,7 +357,7 @@ footer {
   color: $gray;
 }
 
-.contact-email {
+.contact-link {
   color: $teal;
   font-weight: 500;
   text-decoration: none;
@@ -359,7 +365,7 @@ footer {
   transition: border-color 0.2s ease;
 }
 
-.contact-email:hover {
+.contact-link:hover {
   border-bottom-color: $teal;
 }
 
